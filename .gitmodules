@@ -1,0 +1,3 @@
+[submodule "modules/ganglia"]
+	path = modules/ganglia
+	url = git@github.com:KrisBuytaert/puppet-ganglia.git
