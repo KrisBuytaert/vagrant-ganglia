@@ -1,6 +1,6 @@
 
 
-node 'client' { 
+node 'gclient' { 
 
 
 include default-repo

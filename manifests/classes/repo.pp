@@ -4,14 +4,10 @@ class default-repo {
 
 
 	yumrepo {
-		'vvuksan':
-			baseurl => "http://vuksan.com/centos/RPMS/",
-			gpgcheck => 0, enabled => 1;
 
-
-   "epel":
+	   "epel":
                descr => "Epel-5",
-               baseurl => "http://mirror.eurid.eu/epel/5/i386/",
+               baseurl => "http://mirror.eurid.eu/epel/5/x86_64/",
                enabled => 1,
                gpgcheck => 0;
 

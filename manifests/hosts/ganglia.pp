@@ -1,6 +1,6 @@
 
 
-node 'default' { 
+node 'gserver' { 
 
 
 include default-repo
