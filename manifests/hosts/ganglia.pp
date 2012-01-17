@@ -20,10 +20,13 @@ node 'gserver' {
    class {
      "ganglia::gmetad":
        deaf_yesno           => "no",
+       mute_yesno           => "no",
        ganglia_host         => "10.42.42.11",
        ganglia_cluster_name => "my cluster",
                          }
 
 }
 
+  include ganglia::web
 
+  package {"php": ensure => present ; } 
