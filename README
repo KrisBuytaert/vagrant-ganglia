@@ -2,3 +2,5 @@ My attempt in getting a Ganglia Demo setup with 2 nodes and gweb workin.
 
 Puppet module based on the work from @vvuksan at https://github.com/vvuksan/misc-stuff/tree/master/puppet
 
+
+Puppet module is a submodule ! 
