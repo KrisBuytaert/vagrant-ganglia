@@ -1,6 +1,6 @@
 
 
-node 'gserver' {
+node /gserver[0-9]+/ {
 
 
 
