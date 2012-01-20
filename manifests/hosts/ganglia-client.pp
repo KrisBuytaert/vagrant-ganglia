@@ -1,5 +1,5 @@
 
-node 'gclient' {
+node /gclient[0-9]+/ {
 
 
 
