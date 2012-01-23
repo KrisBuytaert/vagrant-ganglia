@@ -33,8 +33,8 @@ node /gserver/ {
       ganglia_cluster_name      => "my cluster",
   }
 
-}
 
   include ganglia::web
 
   package {"php": ensure => present ; } 
+}
