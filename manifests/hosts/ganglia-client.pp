@@ -17,7 +17,7 @@ node /gclient/ {
   class {
     "ganglia::gmond":
       ganglia_cluster_name => "my cluster",
-      ganglia_host         => "10.42.42.11",
+      ganglia_host         => "10.42.46.11",
   }
 
 
