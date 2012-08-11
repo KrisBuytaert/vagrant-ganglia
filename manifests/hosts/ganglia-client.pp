@@ -3,7 +3,7 @@ node /gclient/ {
 
 
 
-  include default-repo
+  include my-repos
 
   service {
     'iptables':

@@ -2,7 +2,7 @@
 
 node /gserver/ {
 
-  include default-repo
+  include my-repos
 
   service {
     'iptables':
